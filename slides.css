@@ -1,17 +1,16 @@
 #notebook {
-    background-color: darkgreen;
-    background-image: url(images/pexels-jan-kopřiva-3280908.jpg);
+    /*background-image: url(images/pexels-jan-kopřiva-3280908.jpg);*/
+    background-image: url(images/pexels-jan-kopřiva-10294562.jpg);
+    background-position: center;    
+    background-size: cover;
 }
 
 #notebook h1, 
 #notebook h2  
 {
-    color: white;
+    text-align: center;
 }
 
 div.cell {
-    background-color: rgba(127, 127, 127, .5);
-}
-div.cell:not(.code_cell) {
-    border-radius: 2rem;
+    background-color: rgba(64, 64, 64, .8);
 }
