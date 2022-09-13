@@ -1,0 +1,17 @@
+#notebook {
+    background-color: darkgreen;
+    background-image: url(images/pexels-jan-kopřiva-3280908.jpg);
+}
+
+#notebook h1, 
+#notebook h2  
+{
+    color: white;
+}
+
+div.cell {
+    background-color: rgba(127, 127, 127, .5);
+}
+div.cell:not(.code_cell) {
+    border-radius: 2rem;
+}
