@@ -11,14 +11,18 @@ sgr0 := $(shell tput -T $(TERM) sgr0)
 
 
 .PHONY: bootstrap
-bootstrap: venv
-	$(PIP) install --upgrade RISE
+bootstrap: venv requirements
 
 
 .PHONY: clean
 clean:
 	@echo "$(bold)Clean up old virtualenv and cache$(sgr0)"
 	rm -rf $(VENV)
+
+.PHONY: requirements
+requirements:
+	$(PIP) install --upgrade RISE
+	$(PIP) install --upgrade numpy pandas matplotlib 
 
 .PHONY: venv
 venv: clean
