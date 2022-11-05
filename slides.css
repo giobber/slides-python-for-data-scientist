@@ -12,5 +12,9 @@
 }
 
 div.cell {
-    background-color: rgba(64, 64, 64, .8);
+    background-color: rgba(64, 64, 64, .9);
+}
+
+.reveal img {
+    max-height: 60vh;
 }
