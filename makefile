@@ -1,8 +1,10 @@
 PYTHON_VERSION=3
 
 VENV=.venv
-PYTHON=$(VENV)/bin/python
-PIP=$(VENV)/bin/pip3
+
+python=$(VENV)/bin/python
+pip=$(VENV)/bin/pip3
+jupyter=$(VENV)/bin/jupyter
 
 # Utility scripts to prettify echo outputs
 TERM ?= 'ansi'
@@ -21,15 +23,15 @@ clean:
 
 .PHONY: requirements
 requirements:
-	$(PIP) install --upgrade RISE
-	$(PIP) install --upgrade numpy pandas matplotlib 
+	$(pip) install --upgrade RISE
+	$(pip) install --upgrade numpy pandas matplotlib 
 
 .PHONY: venv
 venv: clean
 	@echo "$(bold)Create virtualenv$(sgr0)"
 	virtualenv -p /usr/bin/python$(PYTHON_VERSION) $(VENV)
-	$(PIP) install --upgrade pip
+	$(pip) install --upgrade pip
 
 .PHONY: run
 run:
-	$(VENV)/bin/jupyter notebook
+	$(jupyter) notebook
