@@ -1,20 +1,32 @@
 #notebook {
-    /*background-image: url(images/pexels-jan-kopřiva-3280908.jpg);*/
-    background-image: url(images/pexels-jan-kopřiva-10294562.jpg);
+    background-image: url(images/background.jpg);
     background-position: center;    
     background-size: cover;
 }
 
-#notebook h1, 
-#notebook h2  
-{
+#notebook h1, #notebook h2, #notebook h3 {
     text-align: center;
 }
+#notebook h1 { font-size: 8rem; }
+
 
 div.cell {
     background-color: rgba(64, 64, 64, .9);
 }
 
-.reveal img {
+
+
+.reveal section img {
     max-height: 60vh;
+    background-color: initial; 
+}
+
+.reveal section div.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.reveal section div.gallery > img {
+    max-height: 30vh;
 }
