@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//Dtd SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/Dtd/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 100">    
+    <rect width="98" height="98" x="0" rx="0" ry="0" style="stroke:black;stroke-width: 2;fill:blue"/>
+    <circle r="49" cx="150" cy="49" style="stroke:black;stroke-width: 2;fill:green"/>
+    <polygon points="201,98 299,98 250,1" style="stroke:black;stroke-width: 2;fill:yellow" />
+    <rect width="98" height="98" x="300" rx="30" ry="30" style="stroke:black;stroke-width: 2;fill:red"/>
+    <polygon points="0,50 50,0 100,50 50,100" transform="translate(400, 0)" style="stroke:black;stroke-width: 2;fill:pink" />
+    <rect width="98" height="98" x="500" rx="10" ry="10" style="stroke:black;stroke-width: 2;fill:lime"/>
+</svg>
