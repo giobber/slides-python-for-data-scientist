@@ -1,3 +1,6 @@
+.rise-enabled .reveal .slides { text-align: center; }
+.rendered_html p { text-align: center; }
+
 #notebook {
     background-image: url(images/background.jpg);
     background-position: center;    
@@ -16,6 +19,7 @@ div.cell {
 
 
 
+
 .reveal section img {
     max-height: 60vh;
     background-color: initial; 
@@ -30,3 +34,22 @@ div.cell {
 .reveal section div.gallery > img {
     max-height: 30vh;
 }
+
+
+.reveal section img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.reveal section ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* .reveal section ul li { outline: 1px solid gray; width: 100%; } */
+.rendered_html ul:not(.list-inline) { padding-left: 0; }
