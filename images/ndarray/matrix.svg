@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//Dtd SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/Dtd/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">   
+    <defs>
+        <g id="row" transform="translate(5, 5)">
+            <rect width="90" height="90" x="0" rx="10" ry="10" style="stroke:black;stroke-width: 2;fill:blue"/>
+            <rect width="90" height="90" x="100" rx="10" ry="10" style="stroke:black;stroke-width: 2;fill:green"/>
+            <rect width="90" height="90" x="200" rx="10" ry="10" style="stroke:black;stroke-width: 2;fill:pink"/>
+            <rect width="90" height="90" x="300" rx="10" ry="10" style="stroke:black;stroke-width: 2;fill:red"/>
+            <rect width="90" height="90" x="400" rx="10" ry="10" style="stroke:black;stroke-width: 2;fill:yellow"/>
+            <rect width="90" height="90" x="500" rx="10" ry="10" style="stroke:black;stroke-width: 2;fill:lime"/>
+        </g>
+    </defs>
+    
+    <use href="#row" />
+    <use href="#row" transform="translate(0, 100)" />
+    <use href="#row" transform="translate(0, 200)" />
+    <use href="#row" transform="translate(0, 300)" />
+    <use href="#row" transform="translate(0, 400)" />
+    <use href="#row" transform="translate(0, 500)" />
+    
+</svg>
