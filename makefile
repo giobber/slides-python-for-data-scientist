@@ -24,7 +24,7 @@ clean:
 .PHONY: requirements
 requirements:
 	$(pip) install --upgrade RISE
-	$(pip) install --upgrade numpy pandas matplotlib 
+	$(pip) install --upgrade numpy pandas matplotlib seaborn bokeh 
 
 .PHONY: venv
 venv: clean
